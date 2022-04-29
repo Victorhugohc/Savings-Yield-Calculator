@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="light dark">
+
+    <!--Browser tab-->
+    <title>Savings Calculator</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+
+    <!--Style-->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <header>
+
+    </header>
+    
+    <main>
+        <section>
+            <h1>Savings Yield Calculator</h1>
+
+            <h2>Starting amount</h2>
+            <input name="start" type="number" value="500" min="0" required>
+
+            <h2>Depositing daily</h2>
+            <input name="daily" type="number" value="5" min="0" required>
+
+            <h2>% Yield per year</h2>
+            <input name="yield" type="number" value="12" min="0" required>
+
+            <h2>Years</h2>
+            <input name="years" type="number" value="30" min="0" required>
+
+            <button id="btn" onclick="">Calculate</button>
+
+            <h2>Result</h2>
+            <input name="result" type="number" value="" min="0" required>
+        </section>
+    </main>
+
+    <footer>
+        
+    </footer>
+
+    <!--Script-->
+    <script src="script.js"></script>
+    
+</body>
+</html>
