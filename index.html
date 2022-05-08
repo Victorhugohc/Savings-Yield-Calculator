@@ -25,22 +25,25 @@
         <section>
             <h1>Savings Yield Calculator</h1>
 
-            <h2>Starting amount</h2>
-            <input name="start" type="number" value="500" min="0" required>
+            <h2>$ Initial investment</h2>
+            <input id="start" type="number" value="0" min="0">
 
-            <h2>Depositing daily</h2>
-            <input name="daily" type="number" value="5" min="0" required>
+            <h2>$ Daily deposits</h2>
+            <input id="daily" type="number" value="5" min="0">
+
+            <h2>% Anual increase in daily deposits</h2>
+            <input id="increase" type="number" value="5" min="0">
 
             <h2>% Yield per year</h2>
-            <input name="yield" type="number" value="12" min="0" required>
+            <input id="yield" type="number" value="12" min="0">
 
-            <h2>Years</h2>
-            <input name="years" type="number" value="30" min="0" required>
+            <h2>Years of investment</h2>
+            <input id="years" type="number" value="10" min="1">
 
-            <button id="btn" onclick="">Calculate</button>
+            <button onclick="Calculation()">Calculate</button>
 
-            <h2>Result</h2>
-            <input name="result" type="number" value="" min="0" required>
+            <h2>$ Result</h2>
+            <input id="result" type="number" value="0" min="0">
         </section>
     </main>
 
