@@ -2,8 +2,12 @@
 
 Hello everyone!
 
-This calculator is not ready to work yet. But it's not all bad news, in the Javascript file you can find a provisional calculator that you can run in the terminal.
+I designed this calculator to assume a daily deposit to an investment account with an annual percentage yield.
 
-If you want, you can take a look at the finished product without functionality at the following link:
+The expected annual yield is divided by all 365 days of the year to assume a daily return.
+
+Also, you can set a percentage increase in daily deposits per year.
+
+Take a look at the finished product:
 
 https://htmlpreview.github.io/?https://github.com/Victorhugohc/Savings-Yield-Calculator/blob/main/index.html
